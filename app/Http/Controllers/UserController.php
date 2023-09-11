@@ -5,12 +5,42 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
+
+    public function login(Request $request){
+        $credentials = $this->validate($request, [
+            'email' => 'required|email:rfc,dns,filter',
+            'password' => 'required',
+        ]);
+
+        if(Auth::attempt($credentials))
+        {
+            $request->session()->regenerate();
+            return redirect()->route('user.dash')
+                ->withSuccess('You have successfully logged in!');
+        }
+        return back()->withErrors([
+            'email' => 'Your provided credentials do not match in our records.',
+        ])->onlyInput('email');
+    }
+
+    public function dashboard(){
+        return view('user.dash');
+    }
+
+    public function logout(Request $request){
+        Auth::guard('web')->logout();
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+        return redirect('/login')->with("success", "User logged out successfully!");
+    }
+
     public function index()
     {
         $users = User::latest()->get();

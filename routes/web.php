@@ -130,7 +130,14 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+Route::get('/login', function () {
+    return view('user.login');
+})->name('login');
+
+Route::post('/login', [UserController::class, 'login'])->name('user.login');
+
 Route::middleware('auth')->group(function () {
+    Route::get('/dash', [UserController::class, 'dashboard'])->name('user.dash');
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
@@ -149,6 +156,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/user/edit/{id}', [UserController::class, 'edit'])->name('user.edit');
     Route::put('/user/edit/{id}', [UserController::class, 'update'])->name('user.update');
     Route::get('/user/delete/{id}', [UserController::class, 'destroy'])->name('user.delete');
+
+    Route::get('/logout', [UserController::class, 'logout'])->name('user.logout');
 });
 
 require __DIR__.'/auth.php';
