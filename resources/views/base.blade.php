@@ -91,7 +91,7 @@
                         <ul class="nav-dropdown">
                             <li class="nav-dropdown-item">
                                 <a class="nav-dropdown-link" href="/">UAE Free Zone</a>
-                                <ul class="nav-subdropdown">
+                                <!-- <ul class="nav-subdropdown">
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">Sharjah Media City Free Zone(SHAMS)</a></li>
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">Sharjah Publishing City Free Zone (SPCFZ)</a></li>
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">Fujairah Creative City free zone</a></li>
@@ -105,23 +105,23 @@
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">Dubai Design District(D3)</a></li>
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">Umm Al Quwain Free Trade Zone(UAQFTZ)</a></li>
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">Meydan Free Zone (MFZ)</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
                             <li class="nav-dropdown-item">
                                 <a class="nav-dropdown-link" href="/">Offshore</a>
-                                <ul class="nav-subdropdown">
+                                <!-- <ul class="nav-subdropdown">
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">BVI</a></li>
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">Ajman</a></li>
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">Jafza</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
                             <li class="nav-dropdown-item">
                                 <a class="nav-dropdown-link" href="/">Mainland</a>
-                                <ul class="nav-subdropdown">
+                                <!-- <ul class="nav-subdropdown">
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">Dubai Mainland</a></li>
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">Abu Dhabi Mainland</a></li>
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">Abu Dhabi Global Market (ADGM)</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
                         </ul>
                     </li>
