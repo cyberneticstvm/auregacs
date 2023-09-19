@@ -43,6 +43,27 @@ Route::get('/about', function () {
     $meta_keywords = "";
     return view('about', compact('title', 'canonical_url', 'meta_desc', 'meta_keywords'));
 });
+Route::get('/uae-free-zone', function () {
+    $title = 'Free Zone Company Set Up in the UAE';
+    $canonical_url = "https://www.auregacs.com/uae-free-zone";
+    $meta_desc = "Aurega Corporate Services - Free Zone Company Set Up in the UAE";
+    $meta_keywords = "";
+    return view('uae-free-zone', compact('title', 'canonical_url', 'meta_desc', 'meta_keywords'));
+});
+Route::get('/uae-mainland', function () {
+    $title = 'Mainland Company Formation in Dubai';
+    $canonical_url = "https://www.auregacs.com/uae-mainland";
+    $meta_desc = "Aurega Corporate Services - Mainland Company Formation in Dubai";
+    $meta_keywords = "";
+    return view('uae-mainland', compact('title', 'canonical_url', 'meta_desc', 'meta_keywords'));
+});
+Route::get('/uae-offshore', function () {
+    $title = 'Best Offshore Company Setup in Dubai';
+    $canonical_url = "https://www.auregacs.com/uae-mainland";
+    $meta_desc = "Aurega Corporate Services - Best Offshore Company Setup in Dubai";
+    $meta_keywords = "";
+    return view('uae-offshore', compact('title', 'canonical_url', 'meta_desc', 'meta_keywords'));
+});
 Route::get('/services', function () {
     $title = 'Aurega Corporate Services - Services Offerred';
     $canonical_url = "https://www.auregacs.com/services";

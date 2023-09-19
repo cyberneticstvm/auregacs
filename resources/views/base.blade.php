@@ -90,7 +90,7 @@
                         <a class="nav-link" href="#">Business Setup</a>
                         <ul class="nav-dropdown">
                             <li class="nav-dropdown-item">
-                                <a class="nav-dropdown-link" href="/">UAE Free Zone</a>
+                                <a class="nav-dropdown-link" href="/uae-free-zone">UAE Free Zone</a>
                                 <!-- <ul class="nav-subdropdown">
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">Sharjah Media City Free Zone(SHAMS)</a></li>
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">Sharjah Publishing City Free Zone (SPCFZ)</a></li>
@@ -108,7 +108,7 @@
                                 </ul> -->
                             </li>
                             <li class="nav-dropdown-item">
-                                <a class="nav-dropdown-link" href="/">Offshore</a>
+                                <a class="nav-dropdown-link" href="/uae-offshore">Offshore</a>
                                 <!-- <ul class="nav-subdropdown">
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">BVI</a></li>
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">Ajman</a></li>
@@ -116,7 +116,7 @@
                                 </ul> -->
                             </li>
                             <li class="nav-dropdown-item">
-                                <a class="nav-dropdown-link" href="/">Mainland</a>
+                                <a class="nav-dropdown-link" href="/uae-mainland">Mainland</a>
                                 <!-- <ul class="nav-subdropdown">
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">Dubai Mainland</a></li>
                                     <li class="nav-subdropdown-item"><a class="nav-subdropdown-link" href="/">Abu Dhabi Mainland</a></li>
