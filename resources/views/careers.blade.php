@@ -5,7 +5,7 @@
         <div class="mb-5">
             <div class="row text-center">
                 <div class="col-12">
-                    <h4 class="fw-light">Thank you for your interest on working with us. But sorry, we don't have any active openings at present.</h4>
+                    <h1 class="fw-light">Thank you for your interest on working with us. But sorry, we don't have any active openings at present.</h1>
                 </div>
             </div>
         </div>

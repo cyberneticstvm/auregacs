@@ -7,7 +7,7 @@
             <div class="row g-4">
                 <div class="col-12 col-sm-10 col-md-8">
                     <div class="bg-color-spring-red-07 p-5 border-radius">
-                        <h2 class="fw-light m-0 text-yellow">Welcome to Aurega Group - Your Gateway to Seamless Business Setup in UAE.</h2>
+                        <h1 class="fw-light m-0 text-yellow">Welcome to Aurega Group - Your Gateway to Seamless Business Setup in UAE.</h1>
                     </div>
                 </div>
             </div><!-- end row -->
@@ -22,7 +22,7 @@
             <div class="col-12 col-lg-4">
                 <img class="border-radius" src="{{ asset('/assets/images/aurega/medium-shot-men-women-work.webp') }}" alt="business setup dubai">
                 <div class="bg-white box-shadow hover-float p-4 p-xl-5">
-                    <h1 class="fw-light text-center">Trusted<br><span class="fw-normal">Business Setup Advisory Services</span></h1>
+                    <h2 class="fw-light text-center">Trusted<br><span class="fw-normal">Business Setup Advisory Services</span></h2>
                     <p class="text-justify">When it comes to setting up a business in Dubai, navigating through the intricate processes and legal requirements can be overwhelming. Our team of seasoned experts is here to make it easier for you. We offer trusted business setup advisory services, providing you with in-depth knowledge and insights to make informed decisions. From legal registrations to strategic planning, we have got you covered every step of the way.</p>
                     <div class="text-center"><a class="button button-sm btn-warnig mt-3" href="/about">Let's Talk</a></div>
                 </div>
@@ -31,7 +31,7 @@
             <div class="col-12 col-lg-4">
                 <img class="border-radius" src="{{ asset('/assets/images/aurega/medium-shot-smiley-woman-with-passport.webp') }}" alt="company formation in dubai">
                 <div class="bg-white box-shadow hover-float p-4 p-xl-5">
-                    <h1 class="fw-light text-center">Expert<br><span class="fw-normal">Company Formation in Dubai</span></h1>
+                    <h2 class="fw-light text-center">Expert<br><span class="fw-normal">Company Formation in Dubai</span></h2>
                     <p class="text-justify">As specialists in company formation in Dubai, we understand the unique dynamics of the local business landscape. Whether you are a startup, SME, or a large corporation, we tailor our services to meet your specific needs. Our expertise extends to all types of businesses, ensuring a smooth and efficient company setup process that complies with the regulations and maximizes your potential for success.</p>
                     <div class="text-center"><a class="button button-sm btn-warnig mt-3" href="/about">Let's Talk</a></div>
                 </div>
@@ -40,7 +40,7 @@
             <div class="col-12 col-lg-4">
                 <img class="border-radius" src="{{ asset('/assets/images/aurega/male-female-office-workers.webp') }}" alt="business set up in uae">
                 <div class="bg-white box-shadow hover-float p-4 p-xl-5">
-                    <h1 class="fw-light text-center">Comprehensive<br><span class="fw-normal">Business Setup Companies in UAE</span></h1>
+                    <h2 class="fw-light text-center">Comprehensive<br><span class="fw-normal">Business Setup Companies in UAE</span></h2>
                     <p class="text-justify">Expanding your business to the UAE can be a game-changer, but it requires comprehensive solutions. At Auriga Group, we offer end-to-end business setup services that encompass everything from market research and feasibility studies to licensing and <a class="text-primary" href="/services/golden-visa">visa processing</a>. Our holistic approach is designed to save you time, effort, and resources, allowing you to focus on what matters most - growing your business.</p>
                     <div class="text-center"><a class="button button-sm btn-warnig mt-3" href="/about">Let's Talk</a></div>
                 </div>
@@ -57,9 +57,9 @@
             </div>
             <div class="col-12 col-md-6 order-md-1">
                 <div class="d-inline-block bg-gray px-3 py-2 border-radius mb-2">
-                    <h6 class="font-small fw-medium uppercase line-height-140 text-color-theme m-0">About</h6>
+                    <h3 class="font-small fw-medium uppercase line-height-140 text-color-theme m-0">About</h3>
                 </div>
-                <h3>About Aurega</h3>
+                <h2>About Aurega</h2>
                 <p class="text-justify">At Aurega Group, we take pride in being your premier partner for all your business setup Dubai needs in the UAE. With decades of experience in serving the global market, we have earned a reputation as one of the most trusted business setup advisory establishments worldwide. Our commitment to excellence and dedication to our clients have made us a preferred choice for individuals, associations, and large corporations seeking to establish their presence in this thriving region.</p>
                 <div class="text-center"><a class="button button-sm btn-warnig mt-3" href="/about">Let's Talk</a></div>
             </div>
@@ -71,9 +71,9 @@
             </div>
             <div class="col-12 col-md-6">
                 <div class="d-inline-block bg-gray px-3 py-2 border-radius mb-2">
-                    <h6 class="font-small fw-medium uppercase line-height-140 text-color-theme m-0">Business Setup</h6>
+                    <h3 class="font-small fw-medium uppercase line-height-140 text-color-theme m-0">Business Setup</h3>
                 </div>
-                <h3>Top-notch Business Setup Services in Dubai</h3>
+                <h2>Top-notch Business Setup Services in Dubai</h2>
                 <p class="text-justify">Setting up a company in Dubai demands the best <a class="text-primary" href="/services/business-consulting">business consultants</a> and attention to detail. Our top-notch company setup Dubai  ensures that no aspect is overlooked. We handle the paperwork, liaise with government authorities, and streamline the entire setup process. Rest assured, your company formation journey with us will be efficient, transparent, and cost-effective.</p>
                 <div class="text-center"><a class="button button-sm btn-warnig mt-3" href="/about">Let's Talk</a></div>
             </div>
@@ -85,9 +85,9 @@
             </div>
             <div class="col-12 col-md-6 order-md-1">
                 <div class="d-inline-block bg-gray px-3 py-2 border-radius mb-2">
-                    <h6 class="font-small fw-medium uppercase line-height-140 text-color-theme m-0">Business Opportunities</h6>
+                    <h3 class="font-small fw-medium uppercase line-height-140 text-color-theme m-0">Business Opportunities</h3>
                 </div>
-                <h3>Unlocking Business Opportunities in UAE</h3>
+                <h2>Unlocking Business Opportunities in UAE</h2>
                 <p class="text-justify">The UAE presents a wealth of opportunities for businesses of all scales. At Aurega Group, we specialize in unlocking these opportunities for our clients. Our market insights, extensive network, and business acumen enable us to identify and capitalize on the most promising prospects for your business, giving you a competitive edge in the region.</p>
                 <div class="text-center"><a class="button button-sm btn-warnig mt-3" href="/about">Let's Talk</a></div>
             </div>
@@ -99,9 +99,9 @@
             </div>
             <div class="col-12 col-md-6">
                 <div class="d-inline-block bg-gray px-3 py-2 border-radius mb-2">
-                    <h6 class="font-small fw-medium uppercase line-height-140 text-color-theme m-0">Business Setup</h6>
+                    <h3 class="font-small fw-medium uppercase line-height-140 text-color-theme m-0">Business Setup</h3>
                 </div>
-                <h3>Tailored Business Setup Services in Dubai</h3>
+                <h2>Tailored Business Setup Services in Dubai</h2>
                 <p>We understand that each business is unique and requires personalized solutions. Our tailored business setup UAE services are designed to align with your specific needs and aspirations. Whether you need assistance with mainland company formation, free zone setups, or offshore entities, we have the expertise to customize our services to suit your vision. Partner with Aurega Group today, and let's embark on a journey towards unlocking your business's full potential in the UAE. Our substantiated business set up companies in the UAE  and genuine cooperative platform are here to empower your success.</p>
                 <div class="text-center"><a class="button button-sm btn-warnig mt-3" href="/about">Let's Talk</a></div>
             </div>
@@ -113,9 +113,9 @@
             </div>
             <div class="col-12 col-md-6 order-md-1">
                 <div class="d-inline-block bg-gray px-3 py-2 border-radius mb-2">
-                    <h6 class="font-small fw-medium uppercase line-height-140 text-color-theme m-0">Business Set Up Companies</h6>
+                    <h3 class="font-small fw-medium uppercase line-height-140 text-color-theme m-0">Business Set Up Companies</h3>
                 </div>
-                <h3>Leading Business Set Up Companies in UAE</h3>
+                <h2>Leading Business Set Up Companies in UAE</h2>
                 <p>As one of the leading companies helping  business set up in uae, we take immense pride in our track record of successful client engagements.</p>
                 <ul class="list-icon list-icon-check fw-bold">
                     <li>100% ownership</li>
@@ -165,7 +165,7 @@
                             <img class="img-mask-avatar-sm" src="{{ asset('/assets/images/aurega/avatar.png') }}" alt="business setup uae">
                         </div>
                         <div class="d-inline-block">
-                            <h5 class="fw-normal m-0 line-height-140">Emiley Haley</h5>
+                            <h4 class="fw-normal m-0 line-height-140">Emiley Haley</h4>
                             <span class="font-small text-white-09">Manager - Cybernetics</span>
                         </div>
                     </div>
@@ -178,7 +178,7 @@
                             <img class="img-mask-avatar-sm" src="{{ asset('/assets/images/aurega/avatar.png') }}" alt="business setup services in dubai">
                         </div>
                         <div class="d-inline-block">
-                            <h5 class="fw-normal m-0 line-height-140">Biju Janardhanan</h5>
+                            <h4 class="fw-normal m-0 line-height-140">Biju Janardhanan</h4>
                             <span class="font-small text-white-09">CEO - Enieco</span>
                         </div>
                     </div>
@@ -191,7 +191,7 @@
                             <img class="img-mask-avatar-sm" src="{{ asset('/assets/images/aurega/avatar.png') }}" alt="business set up companies in uae">
                         </div>
                         <div class="d-inline-block">
-                            <h5 class="fw-normal m-0 line-height-140">Abdul Samad</h5>
+                            <h4 class="fw-normal m-0 line-height-140">Abdul Samad</h4>
                             <span class="font-small text-white-09">Designer - Artemirate</span>
                         </div>
                     </div>
@@ -204,7 +204,7 @@
                             <img class="img-mask-avatar-sm" src="{{ asset('/assets/images/aurega/avatar.png') }}" alt="business setup in dubai uae">
                         </div>
                         <div class="d-inline-block">
-                            <h5 class="fw-normal m-0 line-height-140">Mohammed Labadi</h5>
+                            <h4 class="fw-normal m-0 line-height-140">Mohammed Labadi</h4>
                             <span class="font-small text-white-09">Entrepreneur - Spliftglobal</span>
                         </div>
                     </div>

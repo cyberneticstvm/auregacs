@@ -150,9 +150,9 @@
                             <li class="nav-dropdown-item"><a class="nav-dropdown-link"
                                     href="/">Blogs</a></li>
                             <li class="nav-dropdown-item"><a class="nav-dropdown-link"
-                                    href="/services/golden-visa">Guides</a></li>
+                                    href="/">Guides</a></li>
                             <li class="nav-dropdown-item"><a class="nav-dropdown-link"
-                                    href="/services/business-consulting">Our Partners</a></li>
+                                    href="/">Our Partners</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

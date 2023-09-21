@@ -7,16 +7,16 @@
                 <img src="{{ asset('/assets/images/aurega/services/accounting.jpg') }}" alt="Accounting Book-keeping">
             </div>
             <div class="col-12 col-lg-7 col-xl-6">
-                <h2>Ultimate Accounting & Bookkeeping Services In Dubai</h2>
-                <h5>Elevate Your Financial Decisions - Accounting Services in Dubai</h5>
+                <h1>Ultimate Accounting & Bookkeeping Services In Dubai</h1>
+                <h2>Elevate Your Financial Decisions - Accounting Services in Dubai</h2>
                 <p class="text-justify">Welcome to Aurega, where we empower businesses of all sizes with our professional Accounting Services in Dubai. We understand that accurate and timely financial information is the cornerstone of successful decision-making. With our comprehensive range of accounting solutions, we equip you with the necessary insights to plan for the future and optimize your business performance.</p>
             </div>
             <div class="col-12">
-                <h5>Partnering for Financial Clarity - Accounting Companies in Dubai</h5>
+                <h2>Partnering for Financial Clarity - Accounting Companies in Dubai</h2>
                 <p class="text-justify">As one of the leading accounting companies in Dubai, Aurega takes pride in being your dedicated financial partner. Our experienced professionals meticulously compile financial statements, analyze financial data, and offer valuable tax advice. With our expertise, you can confidently steer your business towards growth and prosperity.</p>						
             </div>
             <div class="col-12">
-                <h5>Accounting and Bookkeeping Policies in Dubai</h5>
+                <h2>Accounting and Bookkeeping Policies in Dubai</h2>
                 <p class="text-justify mb-3">In Dubai, accounting practices are guided by the UAE Generally Accepted Accounting Principles (GAAP). These principles are maintained and regulated by the International Federation of Accountants (IFAC). Applicable to all UAE government entities and state-owned companies, GAAP ensures standardized accounting practices across various sectors.</p>
                 <ul class="list-icon list-icon-check">
                     <li><strong>Record Keeping Policy</strong></li>
@@ -30,11 +30,11 @@
                 </ul>
             </div>
             <div class="col-12">
-                <h5>Precise Financial Management - Accounting and Bookkeeping Services</h5>
+                <h2>Precise Financial Management - Accounting and Bookkeeping Services</h2>
                 <p class="text-justify">At Aurega, our Accounting and Bookkeeping Services cater to diverse business needs. From budgeting and forecasting to compliance requirements, we have got you covered. Focus on your core business activities, while we ensure that your financial management is in impeccable order.</p>						
             </div>
             <div class="col-12">
-                <h5>Unparalleled Support for Compliance</h5>
+                <h2>Unparalleled Support for Compliance</h2>
                 <p class="text-justify">Meeting compliance requirements can be daunting, but with Aurega's support, it becomes effortless. Our experts handle the complexities of filing taxes, preparing and submitting financial reports, and ensuring adherence to applicable laws and regulations. Trust in our meticulous approach to keep your business on the right track.</p>	
                 <p class="text-justify">Are you ready to experience financial clarity and streamlined bookkeeping? Unlock the true potential of your business with Aurega's Accounting & Bookkeeping Services. Embrace the power of accurate financial information to drive your business towards greater success. Discover the excellence of our accounting services in Dubai - contact <a href="/">Aurega</a> today!</p>					
             </div>
@@ -47,15 +47,15 @@
             <h2 class="fw-normal">FAQ</h2>
             <div class="col-12 col-lg-12">
                 <div>
-                    <h5 class="fw-normal">Q1: What are the benefits of outsourcing accounting and bookkeeping services?</h5>
+                    <h3 class="fw-normal">Q1: What are the benefits of outsourcing accounting and bookkeeping services?</h3>
                     <p>Outsourcing offers focus on core competencies, accurate financial reporting, cost savings, and valuable financial insights.</p>
                 </div>
                 <div class="mt-4">
-                    <h5 class="fw-normal">Q2: How can professional accounting services help with compliance and risk reduction?</h5>
+                    <h3 class="fw-normal">Q2: How can professional accounting services help with compliance and risk reduction?</h3>
                     <p>Experts ensure compliance with regulations, implement internal controls, and reduce risks of penalties or fraud.</p>
                 </div>
                 <div class="mt-4">
-                    <h5 class="fw-normal">Q3: Is professional accounting necessary for small businesses?</h5>
+                    <h3 class="fw-normal">Q3: Is professional accounting necessary for small businesses?</h3>
                     <p>Yes, it's essential for accuracy, efficiency, compliance, and strategic growth.</p>
                 </div>
             </div>

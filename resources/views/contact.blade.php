@@ -8,19 +8,20 @@
 <!-- Contact section -->
 <div class="section">
     <div class="container">
+        <div class="row"><div class="col"><h1 class="text-center">Contact Aurega</h1></div></div>
         <div class="row g-4">
             <div class="col-12 col-md-4">
                 <div class="mb-4">
-                    <h6 class="fw-medium m-0">Phone:</h6>
+                    <h2 class="fw-medium m-0">Phone:</h2>
                     <p><a href="tel:+971528686158">+(971) 52 868 6158</a></p>
                     <p><a href="tel:+971506939558">+(971) 50 693 9558</a></p>
                 </div>
                 <div class="mb-4">
-                    <h6 class="fw-medium m-0">Email:</h6>
+                    <h2 class="fw-medium m-0">Email:</h2>
                     <p><a href="mailto:mkt@auregagroup.com">mkt@auregagroup.com</a></p>
                 </div>
                 <div>
-                    <h6 class="fw-medium m-0">Address:</h6>
+                    <h2 class="fw-medium m-0">Address:</h2>
                     <p>#106, Bay Square 11, Business Bay, Dubai</p>
                 </div>
             </div>

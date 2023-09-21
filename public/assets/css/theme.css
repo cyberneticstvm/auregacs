@@ -10531,5 +10531,11 @@ div[class*='bg-color'] .border-left {
   width: 50%;
 }
 h1{
-  font-size: large !important;
+  font-size: xx-large !important;
+}
+h2{
+  font-size: x-large !important;
+}
+h3{
+  font-size:larger !important;
 }
