@@ -25,7 +25,7 @@
     <link href="{{ asset('/assets/plugins/owl-carousel/owl.theme.default.min.css') }}" rel="stylesheet">
     <link href="{{ asset('/assets/plugins/magnific-popup/magnific-popup.min.css') }}" rel="stylesheet">
     <link href="{{ asset('/assets/plugins/sal/sal.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('/assets/css/theme.css') }}" rel="stylesheet">
+    <link href="{{ asset('/assets/css/theme.css?v=1') }}" rel="stylesheet">
     <link href="{{ asset('/assets/css/mystickyelement.css') }}" rel="stylesheet">
     <!-- Fonts/Icons -->
     <link href="{{ asset('/assets/plugins/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
