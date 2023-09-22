@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+<meta name="ahrefs-site-verification" content="14ebe50aa02b77b71bb211337a67a659633dd4c6969ec5dbc4609c8fe7442b59">
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -40,7 +41,6 @@
         gtag('js', new Date());
         gtag('config', 'AW-11096916840');
     </script>
-    <meta name="ahrefs-site-verification" content="14ebe50aa02b77b71bb211337a67a659633dd4c6969ec5dbc4609c8fe7442b59">
 </head>
 
 <body>
