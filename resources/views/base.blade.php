@@ -40,6 +40,7 @@
         gtag('js', new Date());
         gtag('config', 'AW-11096916840');
     </script>
+    <meta name="ahrefs-site-verification" content="14ebe50aa02b77b71bb211337a67a659633dd4c6969ec5dbc4609c8fe7442b59">
 </head>
 
 <body>
