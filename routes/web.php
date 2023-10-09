@@ -27,7 +27,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
 
 Route::get('/', function () {
     $title = 'Business Setup in Dubai | Company Formation in UAE | Aurega';
@@ -85,13 +85,13 @@ Route::get('/contact', function () {
     $meta_keywords = "";
     return view('contact', compact('title', 'canonical_url', 'meta_desc', 'meta_keywords'));
 });
-/*Route::get('/message', function () {
+Route::get('/message', function () {
     $title = 'Aurega Corporate Services - Success';
     $canonical_url = "https://www.auregacs.com/message";
     $meta_desc = "Message";
     $meta_keywords = "";
     return view('message', compact('title', 'canonical_url', 'meta_desc', 'meta_keywords'));
-});*/
+});
 Route::get('/services/company-incorporation-and-trade-license', function () {
     $title = 'Trade Licence in Dubai, UAE | Commercial License | UAE';
     $canonical_url = "https://www.auregacs.com/services/company-incorporation-and-trade-license";
@@ -181,4 +181,4 @@ Route::middleware('auth')->group(function () {
     Route::get('/logout', [UserController::class, 'logout'])->name('user.logout');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
