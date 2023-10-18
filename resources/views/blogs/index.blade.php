@@ -19,7 +19,7 @@
                                 <a class="font-family-tertiary font-small fw-medium uppercase" href="#">{{ $item->hashtags }}</a>
                             </div>
                             <div class="d-inline-flex">
-                                <span class="font-small">{{ $item->created_at }}</span>
+                                <span class="font-small">{{ $item->created_at->format('d, M Y') }}</span>
                             </div>
                         </div>
                         <h4><a class="text-link-1" href="#">{{ $item->title }}</a></h4>
