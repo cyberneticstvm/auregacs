@@ -87,4 +87,14 @@ class BlogController extends Controller
         Blog::findOrFail(decrypt($id))->delete();
         return redirect()->route('blog')->with("success", "Blog deleted successfully!");
     }
+
+    public function getAllBlogs($category)
+    {
+        $title = 'Aurega Corporate Services - Blogs';
+        $canonical_url = "https://www.auregacs.com/resources/blogs/" . $category;
+        $meta_desc = "Aurega Corporate Services";
+        $meta_keywords = "Blogs, Guides";
+        $blogs = Blog::where('category', $category)->where('status', 1)->latest()->get();
+        return view('blogs.index', compact('title', 'canonical_url', 'meta_desc', 'meta_keywords', 'blogs'));
+    }
 }

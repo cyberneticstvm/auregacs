@@ -4,11 +4,22 @@
 <head>
 
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NCJ2MCZH');</script>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NCJ2MCZH');
+    </script>
     <!-- End Google Tag Manager -->
 
 
@@ -47,24 +58,23 @@
 <body>
 
     <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCJ2MCZH"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCJ2MCZH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Whatsapp -->
     <div class="mystickyelements-fixed mystickyelements-position-right mystickyelements-position-screen-center mystickyelements-position-mobile-right mystickyelements-on-hover mystickyelements-size-medium mystickyelements-mobile-size-medium mystickyelements-templates-default">
-      <div class="mystickyelement-lists-wrap">
-        <ul class="mystickyelements-lists mystickyno-minimize">           
-          <li id="mystickyelements-social-whatsapp" class="mystickyelements-social-icon-li mystickyelements-social-whatsapp  element-desktop-on element-mobile-on">                                       
-            <span class="mystickyelements-social-icon social-whatsapp social-custom"  style="background: #26D367" >
-              <a href="https://api.whatsapp.com/send?phone=971506939558&text=Hello!%20I%20am%20interested%20in%20your%20course" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i></a>
-            </span>                 
-            <span class="mystickyelements-social-text " style= "background: #26D367;" >
-              <a href="https://api.whatsapp.com/send?phone=971506939558&text=Hello!%20I%20am%20interested%20in%20your%20course" target="_blank" rel="noopener">WhatsApp</a>
-            </span>
-          </li>
-        </ul>         
-      </div>
+        <div class="mystickyelement-lists-wrap">
+            <ul class="mystickyelements-lists mystickyno-minimize">
+                <li id="mystickyelements-social-whatsapp" class="mystickyelements-social-icon-li mystickyelements-social-whatsapp  element-desktop-on element-mobile-on">
+                    <span class="mystickyelements-social-icon social-whatsapp social-custom" style="background: #26D367">
+                        <a href="https://api.whatsapp.com/send?phone=971506939558&text=Hello!%20I%20am%20interested%20in%20your%20course" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i></a>
+                    </span>
+                    <span class="mystickyelements-social-text " style="background: #26D367;">
+                        <a href="https://api.whatsapp.com/send?phone=971506939558&text=Hello!%20I%20am%20interested%20in%20your%20course" target="_blank" rel="noopener">WhatsApp</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
     </div>
     <!-- End Whatsapp -->
     <!-- Header -->
@@ -74,8 +84,7 @@
             <div class="header-logo">
                 <!--<h3><a href="#">mono</a></h3>-->
 
-                <img class="logo-light" src="{{ asset('/assets/images/aurega/logo.webp') }}"
-                    alt="Aurega Corporate Services">
+                <img class="logo-light" src="{{ asset('/assets/images/aurega/logo.webp') }}" alt="Aurega Corporate Services">
                 <!-- <img class="logo-dark" src="../assets/images/your-logo-light.png" alt="">
      -->
             </div>
@@ -130,31 +139,23 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Services</a>
                         <ul class="nav-dropdown">
-                            <li class="nav-dropdown-item"><a class="nav-dropdown-link"
-                                    href="/services/company-incorporation-and-trade-license">Company Incorporation &
+                            <li class="nav-dropdown-item"><a class="nav-dropdown-link" href="/services/company-incorporation-and-trade-license">Company Incorporation &
                                     Trade Licenses</a></li>
-                            <li class="nav-dropdown-item"><a class="nav-dropdown-link"
-                                    href="/services/golden-visa">Golden Visa</a></li>
-                            <li class="nav-dropdown-item"><a class="nav-dropdown-link"
-                                    href="/services/business-consulting">Business Consulting</a></li>
-                            <li class="nav-dropdown-item"><a class="nav-dropdown-link"
-                                    href="/services/accounting-and-book-keeping">Accounting & Book-keeping</a></li>
+                            <li class="nav-dropdown-item"><a class="nav-dropdown-link" href="/services/golden-visa">Golden Visa</a></li>
+                            <li class="nav-dropdown-item"><a class="nav-dropdown-link" href="/services/business-consulting">Business Consulting</a></li>
+                            <li class="nav-dropdown-item"><a class="nav-dropdown-link" href="/services/accounting-and-book-keeping">Accounting & Book-keeping</a></li>
                             <li class="nav-dropdown-item"><a class="nav-dropdown-link" href="/services/pro-service">PRO
                                     Services</a></li>
-                            <li class="nav-dropdown-item"><a class="nav-dropdown-link"
-                                    href="/services/trademark-registration-and-intellectual-property">Trademark
+                            <li class="nav-dropdown-item"><a class="nav-dropdown-link" href="/services/trademark-registration-and-intellectual-property">Trademark
                                     Registration & Intellectual Property</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Resources</a>
                         <ul class="nav-dropdown">
-                            <li class="nav-dropdown-item"><a class="nav-dropdown-link"
-                                    href="/">Blogs</a></li>
-                            <li class="nav-dropdown-item"><a class="nav-dropdown-link"
-                                    href="/">Guides</a></li>
-                            <li class="nav-dropdown-item"><a class="nav-dropdown-link"
-                                    href="/">Our Partners</a></li>
+                            <li class="nav-dropdown-item"><a class="nav-dropdown-link" href="{{ route('resources.blogs.all', ['category' => 'Blog']) }}">Blogs</a></li>
+                            <li class="nav-dropdown-item"><a class="nav-dropdown-link" href="{{ route('resources.blogs.all', ['category' => 'Guide']) }}">Guides</a></li>
+                            <li class="nav-dropdown-item"><a class="nav-dropdown-link" href="/">Our Partners</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -170,10 +171,8 @@
                 <ul class="list-inline">
                     <li><a href="https://facebook.com/auregagroup/" target="_blank"><i class="bi bi-facebook"></i></a>
                     </li>
-                    <li><a href="https://instagram.com/auregagroup/?hl=en" target="_blank"><i
-                                class="bi bi-instagram"></i></a></li>
-                    <li><a href="https://linkedin.com/company/auregaglobal/" target="_blank"><i
-                                class="bi bi-linkedin"></i></a></li>
+                    <li><a href="https://instagram.com/auregagroup/?hl=en" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                    <li><a href="https://linkedin.com/company/auregaglobal/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
                 </ul>
             </div>
             <!-- Menu Toggle -->
@@ -201,7 +200,7 @@
                             <li><a href="/services">Services</a></li>
                             <li><a href="/careers">Careers</a></li>
                             <li><a href="https://auregagroup.com" target="_blank">Our Parent Organization</a></li>
-                            
+
                         </ul>
                     </div>
                     <div class="col-6 col-sm-6 col-lg-3">
@@ -236,10 +235,8 @@
                             <ul class="list-inline">
                                 <li><a href="https://facebook.com/auregagroup/" target="_blank"><i class="bi bi-facebook"></i></a>
                                 </li>
-                                <li><a href="https://instagram.com/auregagroup/?hl=en" target="_blank"><i
-                                            class="bi bi-instagram"></i></a></li>
-                                <li><a href="https://linkedin.com/company/auregaglobal/" target="_blank"><i
-                                            class="bi bi-linkedin"></i></a></li>
+                                <li><a href="https://instagram.com/auregagroup/?hl=en" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="https://linkedin.com/company/auregaglobal/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -259,8 +256,7 @@
 
     <!-- Scroll to top button-->
     <div class="scrolltotop">
-        <a class="button-circle button-circle-md button-circle-dark" href="#"><i
-                class="bi bi-arrow-up"></i></a>
+        <a class="button-circle button-circle-md button-circle-dark" href="#"><i class="bi bi-arrow-up"></i></a>
     </div>
     <!--end Scroll to top button -->
 

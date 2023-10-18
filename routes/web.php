@@ -134,6 +134,7 @@ Route::get('/services/trademark-registration-and-intellectual-property', functio
     $meta_keywords = "trademark registration uae, trademark registration in dubai, trademark registration companies in uae";
     return view('services.trademark', compact('title', 'canonical_url', 'meta_desc', 'meta_keywords'));
 });
+Route::get('/resources/blogs/{category}', [BlogController::class, 'getAllBlogs'])->name('resources.blogs.all');
 /*Route::get('/registration', function () {
     $title = 'Aurega - Service Enquiry Form';
     $canonical_url = "https://www.auregacs.com/registration";
