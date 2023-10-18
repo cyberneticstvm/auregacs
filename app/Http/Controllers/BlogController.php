@@ -36,7 +36,7 @@ class BlogController extends Controller
             'category' => 'required',
         ]);
         $input = $request->all();
-        $input['slug'] = strtolower(str_replace('', '-', $request->title));
+        $input['slug'] = strtolower(str_replace('', '-', $request->slug));
         $input['created_by'] = $request->user()->id;
         $input['updated_by'] = $request->user()->id;
         Blog::create($input);
@@ -72,7 +72,7 @@ class BlogController extends Controller
             'category' => 'required',
         ]);
         $input = $request->all();
-        $input['slug'] = strtolower(str_replace('', '-', $request->title));
+        $input['slug'] = strtolower(str_replace('', '-', $request->slug));
         $input['updated_by'] = $request->user()->id;
         $blog = Blog::findOrFail($id);
         $blog->update($input);

@@ -15,8 +15,24 @@
                     @method("PUT")
                     <div class="row">
                         <div class="col-12">
-                            <label>Blog Title</label>
+                            <label>Blog Title (Meta Title)</label>
                             {{ html()->text($name='title', $value=$blog->title)->class('form-control')->placeholder('Blog Title')->required()}}
+                        </div>
+                        <div class="col-12">
+                            <label>Slug</label>
+                            {{ html()->text($name='slug', $value=$blog->slug)->class('form-control')->placeholder('Slug')->required()}}
+                        </div>
+                        <div class="col-12">
+                            <label>Meta Description</label>
+                            {{ html()->text($name='description', $value=$blog->description)->class('form-control')->placeholder('Meta Description')->required()}}
+                        </div>
+                        <div class="col-12">
+                            <label>Meta Keywords</label>
+                            {{ html()->text($name='keywords', $value=$blog->keywords)->class('form-control')->placeholder('Meta Keywords')->required()}}
+                        </div>
+                        <div class="col-12">
+                            <label>Hashtags</label>
+                            {{ html()->text($name='hashtags', $value=$blog->hashtags)->class('form-control')->placeholder('Hashtags')->required()}}
                         </div>
                         <div class="col-12 mt-3">
                             <label>Category</label><br>
@@ -43,4 +59,3 @@
     </div>
 </section>
 @endsection
-
