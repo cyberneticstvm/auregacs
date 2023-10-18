@@ -10,23 +10,23 @@
                 <div class="mb-5">
                     <div class="img-link-box">
                         <a href="#">
-                            <img src="{{ asset('/assets/images/aurega/minimalistic-business-desk-arrangement.webp') }}" alt="">
+                            <img src="blob:https://auregacs.com/29bb9910-9ba8-4609-8511-1db4e6a6f993 alt="">
                         </a>
                     </div>
-                    <div class="mt-4">
-                        <div class="d-flex justify-content-between mb-2">
-                            <div class="d-inline-flex">
-                                <a class="font-family-tertiary font-small fw-medium uppercase" href="#">{{ $item->hashtags }}</a>
+                    <div class=" mt-4">
+                            <div class="d-flex justify-content-between mb-2">
+                                <div class="d-inline-flex">
+                                    <a class="font-family-tertiary font-small fw-medium uppercase" href="#">{{ $item->hashtags }}</a>
+                                </div>
+                                <div class="d-inline-flex">
+                                    <span class="font-small">{{ $item->created_at->format('d, M Y') }}</span>
+                                </div>
                             </div>
-                            <div class="d-inline-flex">
-                                <span class="font-small">{{ $item->created_at->format('d, M Y') }}</span>
+                            <h4><a class="text-link-1" href="#">{{ $item->title }}</a></h4>
+                            <p>{{ $item->description }}</p>
+                            <div class="mt-3">
+                                <a class="button-text-1" href="{{ route('resources.blog.one', ['slug' => $item->slug]) }}">Read More</a>
                             </div>
-                        </div>
-                        <h4><a class="text-link-1" href="#">{{ $item->title }}</a></h4>
-                        <p>{{ $item->description }}</p>
-                        <div class="mt-3">
-                            <a class="button-text-1" href="{{ route('resources.blog.one', ['slug' => $item->slug]) }}">Read More</a>
-                        </div>
                     </div>
                 </div>
                 @empty
