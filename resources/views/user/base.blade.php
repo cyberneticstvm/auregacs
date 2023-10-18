@@ -12,12 +12,12 @@
     <meta property="og:url" content="">
     <meta property="og:image" content="">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/assets/images/aurega/favicon.ico') }}">    
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/assets/images/aurega/favicon.ico') }}">
     <!-- Template CSS -->
     <link href="{{ asset('/backend/assets/css/main.css') }}" rel="stylesheet" type="text/css" />
     <link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet" type="text/css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.6.0/bootstrap-tagsinput.min.css" rel="stylesheet" type="text/css" />     
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.6.0/bootstrap-tagsinput.min.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -98,7 +98,7 @@
             <div class="row pb-30 pt-15">
                 <div class="col-sm-6">
                     <script>
-                    document.write(new Date().getFullYear())
+                        document.write(new Date().getFullYear())
                     </script> ©, Aurega Corporate Services.
                 </div>
                 <div class="col-sm-6">
@@ -117,29 +117,32 @@
     <script src="{{ asset('/backend/assets/js/vendors/chart.js') }}"></script>
     <!-- Main Script -->
     <script src="{{ asset('/backend/assets/js/main.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('/backend/assets/js/custom-chart.js') }}" type="text/javascript"></script>    
-    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" type="text/javascript"></script>    
-    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js" type="text/javascript"></script>    
+    <script src="{{ asset('/backend/assets/js/custom-chart.js') }}" type="text/javascript"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" type="text/javascript"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.6.0/bootstrap-tagsinput.min.js" type="text/javascript"></script>
     <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
     <script>
-        $(function(){
-            $('form').submit(function(){
+        $(function() {
+            $('form').submit(function() {
                 $(".btn-submit").attr("disabled", true);
                 $(".btn-submit").html("<span class='spinner-grow spinner-grow-sm' role='status' aria-hidden='true'></span>");
             });
         });
-        setTimeout(function () {
+        setTimeout(function() {
             $(".alert").hide('slow');
         }, 5000);
 
-        $(function(){
+        $(function() {
             "use strict"
             $("#dataTable").dataTable();
             tinymce.init({
-                selector: '#txtArea'
+                selector: '#txtArea',
+                plugins: 'code',
+                toolbar: 'code',
+                menubar: 'tools'
             });
         });
     </script>
