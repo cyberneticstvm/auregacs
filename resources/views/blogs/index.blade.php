@@ -10,7 +10,7 @@
                 <div class="mb-5">
                     <div class="img-link-box">
                         <a href="#">
-                            <img src="../assets/images/col-1.jpg" alt="">
+                            <img src="{{ asset('/assets/images/aurega/minimalistic-business-desk-arrangement.webp') }}" alt="">
                         </a>
                     </div>
                     <div class="mt-4">
