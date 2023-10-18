@@ -23,7 +23,7 @@
                             </div>
                         </div>
                         <h4><a class="text-link-1" href="#">{{ $item->title }}</a></h4>
-                        <p>{ $item->description }</p>
+                        <p>{{ $item->description }}</p>
                         <div class="mt-3">
                             <a class="button-text-1" href="{{ route('resources.blog.one', ['slug' => $item->slug]) }}">Read More</a>
                         </div>
