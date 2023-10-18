@@ -141,6 +141,7 @@
             tinymce.init({
                 selector: '#txtArea',
                 plugins: 'code',
+                plugins: 'image',
             });
         });
     </script>
