@@ -97,4 +97,14 @@ class BlogController extends Controller
         $blogs = Blog::where('category', $category)->where('status', 1)->latest()->get();
         return view('blogs.index', compact('title', 'canonical_url', 'meta_desc', 'meta_keywords', 'blogs'));
     }
+
+    public function getBlog($slug)
+    {
+        $blog = Blog::where('slug', $slug)->latest()->firstOrFail();
+        $title = $blog->title;
+        $canonical_url = "https://www.auregacs.com/resources/blog/" . $slug;
+        $meta_desc = $blog->description;
+        $meta_keywords = $blog->keywords;
+        return view('blogs.blog', compact('title', 'canonical_url', 'meta_desc', 'meta_keywords', 'blog'));
+    }
 }

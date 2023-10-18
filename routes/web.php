@@ -135,6 +135,7 @@ Route::get('/services/trademark-registration-and-intellectual-property', functio
     return view('services.trademark', compact('title', 'canonical_url', 'meta_desc', 'meta_keywords'));
 });
 Route::get('/resources/blogs/{category}', [BlogController::class, 'getAllBlogs'])->name('resources.blogs.all');
+Route::get('/resources/blog/{slug}', [BlogController::class, 'getBlog'])->name('resources.blog.one');
 /*Route::get('/registration', function () {
     $title = 'Aurega - Service Enquiry Form';
     $canonical_url = "https://www.auregacs.com/registration";
