@@ -10,10 +10,10 @@
                 <div class="mb-5">
                     <div class="img-link-box">
                         <a href="#">
-                            <img src="blob:https://auregacs.com/29bb9910-9ba8-4609-8511-1db4e6a6f993" alt="">
+                            <img src="{{ asset('/assets/images/aurega/minimalistic-business-desk-arrangement.webp') }}" alt="{{ $item->title }}">
                         </a>
                     </div>
-                    <div class=" mt-4">
+                    <div class="mt-4">
                         <div class="d-flex justify-content-between mb-2">
                             <div class="d-inline-flex">
                                 <a class="font-family-tertiary font-small fw-medium uppercase" href="#">{{ $item->hashtags }}</a>
