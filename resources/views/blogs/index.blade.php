@@ -16,7 +16,7 @@
                     <div class="mt-4">
                         <div class="d-flex justify-content-between mb-2">
                             <div class="d-inline-flex">
-                                <a class="font-family-tertiary font-small fw-medium uppercase" href="#">{{ $item->hastags }}</a>
+                                <a class="font-family-tertiary font-small fw-medium uppercase" href="#">{{ $item->hashtags }}</a>
                             </div>
                             <div class="d-inline-flex">
                                 <span class="font-small">{{ $item->created_at }}</span>
