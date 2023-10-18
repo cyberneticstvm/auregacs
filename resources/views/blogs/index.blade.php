@@ -2,7 +2,7 @@
 @section("content")
 <div class="section">
     <div class="container">
-        <h1 class="fw-light mb-3">Our Blogs.</h1>
+        <h1 class="fw-light mb-3">Our {{ $category.'s' }}.</h1>
         <div class="row g-4">
             <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
                 <!-- Blog Post box 1 -->

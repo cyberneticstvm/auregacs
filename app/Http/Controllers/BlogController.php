@@ -95,7 +95,7 @@ class BlogController extends Controller
         $meta_desc = "Aurega Corporate Services";
         $meta_keywords = "Blogs, Guides";
         $blogs = Blog::where('category', $category)->where('status', 1)->latest()->get();
-        return view('blogs.index', compact('title', 'canonical_url', 'meta_desc', 'meta_keywords', 'blogs'));
+        return view('blogs.index', compact('title', 'canonical_url', 'meta_desc', 'meta_keywords', 'blogs', 'category'));
     }
 
     public function getBlog($slug)
