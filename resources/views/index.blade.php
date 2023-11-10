@@ -41,10 +41,10 @@
                 <img class="border-radius" src="{{ asset('/assets/images/aurega/male-female-office-workers.webp') }}" alt="business set up in uae">
                 <div class="bg-white box-shadow hover-float p-4 p-xl-5">
                     <h2 class="fw-light text-center">Comprehensive<br><span class="fw-normal">Business Setup Companies in UAE</span></h2>
-                    <p class="text-justify">Expanding your business to the UAE can be a game-changer, but it requires comprehensive solutions. At Auriga Group, we offer end-to-end business setup services that encompass everything from market research and feasibility studies to licensing and <a class="text-primary" href="/services/golden-visa">visa processing</a>. Our holistic approach is designed to save you time, effort, and resources, allowing you to focus on what matters most - growing your business.</p>
+                    <p class="text-justify">Expanding your business to the UAE can be a game-changer, but it requires comprehensive solutions. At Aurega Group, we offer end-to-end business setup services that encompass everything from market research and feasibility studies to licensing and <a class="text-primary" href="/services/golden-visa">visa processing</a>. Our holistic approach is designed to save you time, effort, and resources, allowing you to focus on what matters most - growing your business.</p>
                     <div class="text-center"><a class="button button-sm btn-warnig mt-3" href="/about">Let's Talk</a></div>
                 </div>
-            </div>         
+            </div>
         </div><!-- end row -->
     </div><!-- end container -->
 </div>
@@ -74,7 +74,7 @@
                     <h3 class="font-small fw-medium uppercase line-height-140 text-color-theme m-0">Business Setup</h3>
                 </div>
                 <h2>Top-notch Business Setup Services in Dubai</h2>
-                <p class="text-justify">Setting up a company in Dubai demands the best <a class="text-primary" href="/services/business-consulting">business consultants</a> and attention to detail. Our top-notch company setup Dubai  ensures that no aspect is overlooked. We handle the paperwork, liaise with government authorities, and streamline the entire setup process. Rest assured, your company formation journey with us will be efficient, transparent, and cost-effective.</p>
+                <p class="text-justify">Setting up a company in Dubai demands the best <a class="text-primary" href="/services/business-consulting">business consultants</a> and attention to detail. Our top-notch company setup Dubai ensures that no aspect is overlooked. We handle the paperwork, liaise with government authorities, and streamline the entire setup process. Rest assured, your company formation journey with us will be efficient, transparent, and cost-effective.</p>
                 <div class="text-center"><a class="button button-sm btn-warnig mt-3" href="/about">Let's Talk</a></div>
             </div>
         </div>
@@ -102,7 +102,7 @@
                     <h3 class="font-small fw-medium uppercase line-height-140 text-color-theme m-0">Business Setup</h3>
                 </div>
                 <h2>Tailored Business Setup Services in Dubai</h2>
-                <p>We understand that each business is unique and requires personalized solutions. Our tailored business setup UAE services are designed to align with your specific needs and aspirations. Whether you need assistance with mainland company formation, free zone setups, or offshore entities, we have the expertise to customize our services to suit your vision. Partner with Aurega Group today, and let's embark on a journey towards unlocking your business's full potential in the UAE. Our substantiated business set up companies in the UAE  and genuine cooperative platform are here to empower your success.</p>
+                <p>We understand that each business is unique and requires personalized solutions. Our tailored business setup UAE services are designed to align with your specific needs and aspirations. Whether you need assistance with mainland company formation, free zone setups, or offshore entities, we have the expertise to customize our services to suit your vision. Partner with Aurega Group today, and let's embark on a journey towards unlocking your business's full potential in the UAE. Our substantiated business set up companies in the UAE and genuine cooperative platform are here to empower your success.</p>
                 <div class="text-center"><a class="button button-sm btn-warnig mt-3" href="/about">Let's Talk</a></div>
             </div>
         </div>
@@ -116,7 +116,7 @@
                     <h3 class="font-small fw-medium uppercase line-height-140 text-color-theme m-0">Business Set Up Companies</h3>
                 </div>
                 <h2>Leading Business Set Up Companies in UAE</h2>
-                <p>As one of the leading companies helping  business set up in uae, we take immense pride in our track record of successful client engagements.</p>
+                <p>As one of the leading companies helping business set up in uae, we take immense pride in our track record of successful client engagements.</p>
                 <ul class="list-icon list-icon-check fw-bold">
                     <li>100% ownership</li>
                     <li>700 company incorporation since Aurega Inception</li>
@@ -242,29 +242,29 @@
                     <!-- Submit result -->
                     <div class="submit-result mb-3">
                         @if(session()->has('success'))
-                            <div class="text-success">
-                                {{ session()->get('success') }}
-                            </div>
+                        <div class="text-success">
+                            {{ session()->get('success') }}
+                        </div>
                         @endif
                         @if(session()->has('error'))
-                            <div class="text-danger">
-                                {{ session()->get('error') }}
-                            </div>
+                        <div class="text-danger">
+                            {{ session()->get('error') }}
+                        </div>
                         @endif
                     </div>
                     <form method="post" action="https://crm.zoho.com/crm/WebToLeadForm" name='WebToLeads2950419000001349003' onSubmit='javascript:document.charset="UTF-8";' accept-charset='UTF-8'>
                         @csrf
-                        <input type='text' style='display:none;' name='xnQsjsdp' value='445896b0bcde9382b9d796cabd9a0d0a65c455f797700c04263c5384dc2af4ac'></input> 
-                        <input type='hidden' name='zc_gad' id='zc_gad' value=''></input> 
-                        <input type='text' style='display:none;' name='xmIwtLD' value='0943c0b24a3e03c0eb553c3d557dae92a32d567e93542e44b5d35737852256c2'></input> 
-                        <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
-                        <input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;auregacs.com&#x2f;message' > </input>
+                        <input type='text' style='display:none;' name='xnQsjsdp' value='445896b0bcde9382b9d796cabd9a0d0a65c455f797700c04263c5384dc2af4ac'></input>
+                        <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
+                        <input type='text' style='display:none;' name='xmIwtLD' value='0943c0b24a3e03c0eb553c3d557dae92a32d567e93542e44b5d35737852256c2'></input>
+                        <input type='text' style='display:none;' name='actionType' value='TGVhZHM='></input>
+                        <input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;auregacs.com&#x2f;message'> </input>
                         <div class="row gx-3 gy-0">
                             <div class="col-12 col-sm-6">
                                 <input type="text" id='First_Name' name='First Name' placeholder="First Name" required>
                             </div>
                             <div class="col-12 col-sm-6">
-                            <input type="text" id='Last_Name' name='Last Name' placeholder="Last Name" required>
+                                <input type="text" id='Last_Name' name='Last Name' placeholder="Last Name" required>
                             </div>
                         </div>
                         <input type="email" ftype='email' id='Email' name='Email' placeholder="E-Mail" required>
