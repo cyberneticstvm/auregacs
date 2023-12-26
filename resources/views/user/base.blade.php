@@ -123,7 +123,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" type="text/javascript"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.6.0/bootstrap-tagsinput.min.js" type="text/javascript"></script>
-    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://cdn.tiny.cloud/1/ea16vit7bw7smon3hcz3cnu1y6vly50be0scn8pwao1xqa94/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
     <script>
         $(function() {
             $('form').submit(function() {
