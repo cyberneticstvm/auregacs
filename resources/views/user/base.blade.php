@@ -155,6 +155,7 @@
                     'help',
                     'code'
                 ],
+                a11y_advanced_options: true
             });
         });
     </script>
