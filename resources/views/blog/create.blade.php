@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="card card-body mb-4">
-                <form method="post" action="{{ route('blog.save') }}">
+                <form method="post" action="{{ route('blog.save') }}" enctype="multipart/form-data">
                     @csrf
                     <div class="row">
                         <div class="col-12">

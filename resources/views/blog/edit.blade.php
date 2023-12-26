@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="card card-body mb-4">
-                <form method="post" action="{{ route('blog.update', $blog->id) }}">
+                <form method="post" action="{{ route('blog.update', $blog->id) }}" enctype="multipart/form-data">
                     @csrf
                     @method("PUT")
                     <div class="row">
