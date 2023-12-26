@@ -10,7 +10,7 @@
                 <div class="mb-5">
                     <div class="img-link-box">
                         <a href="#">
-                            <img src="{{ asset('/assets/images/aurega/minimalistic-business-desk-arrangement.webp') }}" alt="{{ $item->title }}">
+                            <img src="{{ () ? asset($item->featured_image) : asset('/assets/images/aurega/minimalistic-business-desk-arrangement.webp') }}" alt="{{ $item->title }}">
                         </a>
                     </div>
                     <div class="mt-4">
