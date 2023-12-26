@@ -38,15 +38,15 @@
                             {{ html()->select($name='category', $value=array('Blog'=>'Blog', 'Guide'=>'Guide'))->class('form-control')->placeholder('Select Category')->required()}}
                         </div>
                         <div class="col-12 mt-3">
-                            <label>Featured Image</label> (1200px Width X 750px Height, Max size 1MB)<br>
-                            {{ html()->file($name='featured_image')->class('form-control')->required()}}
-                        </div>
-                        <div class="col-12 mt-3">
                             <label>Blog Content</label>
                             {{ html()->textarea($name='content', $value=old('content'))->class('form-control')->rows(15)->placeholder('Blog Content')->attribute('id', 'txtArea')}}
                             @error('content')
                             <small class="text-danger">{{ $errors->first('content') }}</small>
                             @enderror
+                        </div>
+                        <div class="col-12 mt-3">
+                            <label>Featured Image</label> (1200px Width X 750px Height, Max size 1MB)<br>
+                            {{ html()->file($name='featured_image')->class('form-control')->required()}}
                         </div>
                         <div class="col-12 mt-3">
                             <label>Status</label><br>

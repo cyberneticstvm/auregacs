@@ -140,7 +140,21 @@
             $("#dataTable").dataTable();
             tinymce.init({
                 selector: '#txtArea',
-                plugins: 'code',
+                plugins: [
+                    'autolink',
+                    'autoresize',
+                    'codesample',
+                    'link',
+                    'lists',
+                    'media',
+                    'powerpaste',
+                    'table',
+                    'image',
+                    'quickbars',
+                    'codesample',
+                    'help',
+                    'code'
+                ],
             });
         });
     </script>
