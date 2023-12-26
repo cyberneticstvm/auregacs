@@ -15,6 +15,7 @@ return new class extends Migration
             $table->string('description')->nullable();
             $table->string('keywords')->nullable();
             $table->string('hashtags')->nullable();
+            $table->string('featured_image')->nullable();
         });
     }
 
@@ -24,7 +25,7 @@ return new class extends Migration
     public function down(): void
     {
         Schema::table('blogs', function (Blueprint $table) {
-            $table->dropColumn(['description', 'keywords', 'hashtags']);
+            $table->dropColumn(['description', 'keywords', 'hashtags', 'featured_image']);
         });
     }
 };

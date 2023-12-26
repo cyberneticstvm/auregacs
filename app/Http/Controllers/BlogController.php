@@ -34,9 +34,16 @@ class BlogController extends Controller
             'title' => 'required',
             'status' => 'required',
             'category' => 'required',
+            'featured_image' => 'required|mimes:jpg,jpeg,png,webp|max:1024',
         ]);
         $input = $request->all();
         $input['slug'] = strtolower(str_replace('', '-', $request->slug));
+        if ($request->file('featured_image')) :
+            $path = 'blog/featured_images';
+            $fname = time() . '_' . $request->file('featured_image')->getClientOriginalName();
+            $request->file('featured_image')->storeAs($path, $fname, 'public');
+            $input['featured_image'] = '/storage/' . $path . '/' . $fname;
+        endif;
         $input['created_by'] = $request->user()->id;
         $input['updated_by'] = $request->user()->id;
         Blog::create($input);
@@ -70,10 +77,17 @@ class BlogController extends Controller
             'title' => 'required',
             'status' => 'required',
             'category' => 'required',
+            'image' => 'sometimes|required|mimes:jpg,jpeg,png,webp|max:1024',
         ]);
         $input = $request->all();
         $input['slug'] = strtolower(str_replace('', '-', $request->slug));
         $input['updated_by'] = $request->user()->id;
+        if ($request->file('featured_image')) :
+            $path = 'blog/featured_images';
+            $fname = time() . '_' . $request->file('featured_image')->getClientOriginalName();
+            $request->file('featured_image')->storeAs($path, $fname, 'public');
+            $input['featured_image'] = '/storage/' . $path . '/' . $fname;
+        endif;
         $blog = Blog::findOrFail($id);
         $blog->update($input);
         return redirect()->route('blog')->with("success", "Blog updated successfully!");

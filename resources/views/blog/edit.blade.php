@@ -46,6 +46,10 @@
                             @enderror
                         </div>
                         <div class="col-12 mt-3">
+                            <label>Featured Image</label> (1200px Width X 750px Height, Max size 1MB)<br>
+                            {{ html()->file($name='featured_image')->class('form-control') }}
+                        </div>
+                        <div class="col-12 mt-3">
                             <label>Status</label><br>
                             {{ html()->select($name='status', $value=array('0'=>'Draft', '1'=>'Publish'), $blog->status)->class('form-control')->placeholder('Select Status')->required()}}
                         </div>
