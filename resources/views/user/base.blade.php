@@ -155,7 +155,7 @@
                     'help',
                     'code'
                 ],
-                a11y_advanced_options: true
+                file_picker_types: 'image'
             });
         });
     </script>
