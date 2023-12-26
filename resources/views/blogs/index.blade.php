@@ -9,7 +9,7 @@
                 @forelse($blogs as $key => $item)
                 <div class="mb-5">
                     <div class="img-link-box">
-                        <a href="#">
+                        <a href="{{ route('resources.blog.one', ['slug' => $item->slug]) }}">
                             <img src="{{ ($item->featured_image) ? asset($item->featured_image) : asset('/assets/images/aurega/minimalistic-business-desk-arrangement.webp') }}" alt="{{ $item->title }}">
                         </a>
                     </div>
