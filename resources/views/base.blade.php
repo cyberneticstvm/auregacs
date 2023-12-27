@@ -214,9 +214,9 @@
                     <div class="col-6 col-sm-6 col-lg-3">
                         <h6 class="font-small fw-medium uppercase">Services We offered</h6>
                         <ul class="list-dash animate-links">
-                            <li><a href="/">About Us</a></li>
-                            <li><a href="/">Contact Us</a></li>
-                            <li><a href="/">Blog</a></li>
+                            <li><a href="/about">About Us</a></li>
+                            <li><a href="/contact">Contact Us</a></li>
+                            <li><a href="{{ route('resources.blogs.all', ['category' => 'Blog']) }}">Blog</a></li>
                             <li><a href="/">Resources</a></li>
                             <li><a href="/">FAQ</a></li>
                             <li><a href="/">Terms & Conditions</a></li>
