@@ -247,7 +247,7 @@
             <div class="container">
                 <div class="row align-items-center g-2 g-lg-3">
                     <div class="col-12 col-md-6 text-center text-md-start">
-                        <p>&copy; {{ date('Y') }} Aurega Corporate Services, All Rights Reserved.</p>
+                        <p>&copy; {{ date('Y') }} Aurega Group Limited., All Rights Reserved.</p>
                     </div>
                 </div><!-- end row -->
             </div><!-- end container -->
